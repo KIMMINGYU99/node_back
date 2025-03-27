@@ -1,0 +1,13 @@
+{
+  "name": "cafe",
+  "version": "1.0.0",
+  "description": "회사 짤려서 카페 운영",
+  "license": "ISC",
+  "author": "KIMMINGYU",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install": "pkg index.js --targets node18-win-x64"
+  }
+}
