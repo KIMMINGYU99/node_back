@@ -1,0 +1,17 @@
+{
+  "name": "heon",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "exceljs": "^4.4.0",
+    "korean-name-generator": "^1.0.4"
+  }
+}

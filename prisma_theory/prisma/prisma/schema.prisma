@@ -1,0 +1,69 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model courses {
+  id           Int           @id
+  name         String        @db.VarChar(100)
+  professor_id Int
+  professors   professors    @relation(fields: [professor_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "courses_ibfk_1")
+  enrollments  enrollments[]
+
+  @@index([professor_id], map: "professor_id")
+}
+
+model departments {
+  id     Int      @id
+  name   String   @unique(map: "name") @db.VarChar(100)
+  majors majors[]
+}
+
+model enrollments {
+  id         Int      @id
+  student_id Int
+  course_id  Int
+  students   students @relation(fields: [student_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "enrollments_ibfk_1")
+  courses    courses  @relation(fields: [course_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "enrollments_ibfk_2")
+
+  @@index([course_id], map: "course_id")
+  @@index([student_id], map: "student_id")
+}
+
+model majors {
+  id            Int          @id
+  name          String       @unique(map: "name") @db.VarChar(100)
+  department_id Int
+  departments   departments  @relation(fields: [department_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "majors_ibfk_1")
+  professors    professors[]
+  students      students[]
+
+  @@index([department_id], map: "department_id")
+}
+
+model professors {
+  id       Int       @id
+  name     String    @db.VarChar(100)
+  major_id Int
+  courses  courses[]
+  majors   majors    @relation(fields: [major_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "professors_ibfk_1")
+
+  @@index([major_id], map: "major_id")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model students {
+  id          Int           @id
+  name        String        @db.VarChar(100)
+  major_id    Int
+  age         Int           @default(20)
+  admission   Int?          @db.Year
+  enrollments enrollments[]
+  majors      majors        @relation(fields: [major_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "students_ibfk_1")
+
+  @@index([major_id], map: "major_id")
+}

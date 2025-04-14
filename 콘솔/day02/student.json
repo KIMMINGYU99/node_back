@@ -1,0 +1,6 @@
+{
+  "className": "A",
+  "courses": ["Java", "Python", "AI"],
+  "capacity": 40,
+  "isActive": true
+}

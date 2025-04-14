@@ -1,0 +1,201 @@
+id,name,major_id,professor_id
+0,CTI,7,105
+1,Editorial,13,80
+2,MVC Architecture,7,55
+3,SSCP,10,156
+4,Clinical Development,12,155
+5,KOL Management,3,140
+6,CTC,13,143
+7,GGY Axis,2,38
+8,Public Administration,14,107
+9,SRDF,12,42
+10,US Tax,14,125
+11,SWAT,10,131
+12,ABAP Web Dynpro,13,12
+13,Information Technology,10,81
+14,RPD,13,35
+15,z/VM,13,45
+16,Fashion Blogging,8,19
+17,Consulting,10,162
+18,Pro-IV,7,45
+19,CNC Operation,11,50
+20,HSE auditing,4,67
+21,Tax Research,8,120
+22,OA Framework,9,132
+23,MMA,12,60
+24,CTRS,7,156
+25,ASP.NET,14,146
+26,Wellbeing,12,66
+27,Military Experience,13,4
+28,MBS,9,48
+29,TVCs,8,114
+30,RTC,2,75
+31,RhinoCAM,13,36
+32,TBMCS,4,93
+33,DDA compliance,10,28
+34,Fire Alarm,8,139
+35,OEMs,14,166
+36,European Affairs,12,142
+37,IAS 39,11,157
+38,FFT,11,82
+39,Xserve,15,160
+40,VTR,13,11
+41,LSS,4,106
+42,CMYK,11,135
+43,Customer Support,5,144
+44,BTS,12,130
+45,Cybercrime,10,141
+46,CBI,11,96
+47,Structural Dynamics,2,68
+48,PMO set-up,6,62
+49,RSpec,10,166
+50,PMO,12,173
+51,Tumblr,6,73
+52,PVC,13,153
+53,UCC filings,10,29
+54,Background Checks,7,181
+55,VMware Player,8,131
+56,RF Design,14,29
+57,DJ,3,6
+58,Zen Shiatsu,13,197
+59,Alarm Systems,9,29
+60,Utility Construction,10,178
+61,Customer Relations,13,179
+62,Segregation of Duties,17,66
+63,Museums,6,27
+64,JTA,4,115
+65,PVD,13,156
+66,TPP,10,74
+67,RPM,1,7
+68,Three.js,11,58
+69,SRST,12,57
+70,BSI Tax Factory,13,8
+71,Functional Verification,17,21
+72,Supply Chain,14,116
+73,FX Trading,2,59
+74,CBM,4,157
+75,German,7,193
+76,Mystery Shopping,11,119
+77,OAB,11,68
+78,European Affairs,16,180
+79,Cardiology,9,70
+80,SQL,10,45
+81,LTSpice,7,127
+82,Luxury Cruise,16,152
+83,Industrial Hygiene,13,80
+84,Motivational Interviewing,13,37
+85,OEMs,12,144
+86,QML,13,146
+87,IBM Mainframe,14,93
+88,NCDA,8,18
+89,DST,2,131
+90,Rhinoceros,11,195
+91,Turbines,7,104
+92,Administrative Law,10,141
+93,Medical Ultrasound,17,158
+94,Yii,11,149
+95,Secretarial Skills,6,46
+96,Hyperion HFM,14,1
+97,Psychological Assessment,13,193
+98,Branding,5,182
+99,Contemporary Art,13,36
+100,Shotokan Karate,17,19
+101,ADP ezLaborManager,12,181
+102,NVU,7,125
+103,SSCP,5,81
+104,VSTO,10,101
+105,Cybercrime,5,15
+106,MD-11,13,8
+107,Logistics,9,147
+108,Combined Cycle,14,68
+109,CISA,13,71
+110,FSC Certification,11,184
+111,Human Capital,9,186
+112,Oil Sands,11,15
+113,Enterprise Architecture,10,46
+114,Sleep Medicine,7,90
+115,Architectural Drawings,1,9
+116,Cd,12,99
+117,MBCS,11,91
+118,vShield,10,162
+119,DTDs,9,97
+120,EMR,17,42
+121,OGC,1,90
+122,Google Apps,17,160
+123,American Welding Society (AWS),3,106
+124,EOS,11,57
+125,SPSS,7,100
+126,Beauty Industry,14,32
+127,Executive Administrative Assistance,14,98
+128,RS Means,13,171
+129,MPLS VPN,1,132
+130,Venture Capital,14,32
+131,Area Rugs,5,165
+132,Road Safety,14,120
+133,GNU Octave,6,116
+134,Nanotechnology,8,178
+135,Overseeing Projects,10,118
+136,TMF,12,73
+137,Entity Framework,9,16
+138,Employee Management,14,94
+139,Overall Wellness,14,67
+140,QFD,9,52
+141,NI LabVIEW,11,125
+142,Two-factor Authentication,7,84
+143,Observational Astronomy,10,94
+144,Object Oriented Design,11,47
+145,Online Reputation Management,9,98
+146,Public Sector,16,137
+147,Phone Etiquette,6,156
+148,Flame AA,14,84
+149,Classroom Management,6,51
+150,JDE One World,11,74
+151,Customs Regulations,10,24
+152,RDO,9,143
+153,5 Why,10,142
+154,European Union Politics,7,9
+155,XML Programming,13,163
+156,Google Analytics,1,104
+157,Drywall,7,68
+158,RTGS,10,193
+159,RRP,13,166
+160,Interior Architecture,14,105
+161,MSP Practitioner,10,124
+162,Special Events Coordination,15,74
+163,Umbrellas,4,154
+164,Toad,13,107
+165,XPDL,9,104
+166,LSO,7,171
+167,Production Efficiency,13,95
+168,DPR,12,133
+169,Network Architecture,17,162
+170,VMware ESX,9,183
+171,PDI,5,25
+172,PQRI,2,110
+173,Spring MVC,13,135
+174,Facilities Management,8,35
+175,Radio Advertising,2,9
+176,High Availability Clustering,6,84
+177,DMS-100,9,38
+178,Black Belt,6,86
+179,PKI,5,12
+180,Type 2 Diabetes,7,126
+181,IT Strategy,10,116
+182,MM modules,7,24
+183,Product Life Cycle,11,199
+184,Thermal Oxidation,7,10
+185,Vectorworks,14,172
+186,SNL,7,192
+187,ASP.NET AJAX,10,98
+188,Agility,12,46
+189,Thermodynamics,8,104
+190,Natural Gas,4,37
+191,Embedded Systems,14,68
+192,Raw Materials,13,74
+193,Layout,17,51
+194,PPBES,8,36
+195,Change Control,1,74
+196,DSLR,10,48
+197,GMS,5,79
+198,Language Teaching,16,176
+199,NICU,16,73
