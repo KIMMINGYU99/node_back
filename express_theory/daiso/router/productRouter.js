@@ -1,6 +1,6 @@
 const express = require("express");
 const productRouter = express.Router();
-const { prisma } = require("../prisma/prismaClient.js");
+
 const { productService } = require("../service/productService.js");
 const { validateProductId } = require("../middleware/validateProductId.js");
 const { validateProductBody } = require("../middleware/validateProductBody.js");
@@ -17,7 +17,11 @@ productRouter.get("/:id", validateProductId, async (req, res) => {
 
 productRouter.post("/", validateProductBody, async (req, res) => {
   const { name, price, quantity } = req.body;
-  const newProduct = await productService.create({ name, price, quantity });
+  const newProduct = await productService.create({
+    name,
+    price: +price,
+    quantity: +quantity,
+  });
   res.json({
     success: true,
     message: "상품 생성 완료",

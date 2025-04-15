@@ -1,3 +1,4 @@
+const { prisma } = require("../prisma/prismaClient.js");
 const productService = {
   getAll: () => prisma.products.findMany(),
 
